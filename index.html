@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#"><img src="./images/logo.svg" alt="Shortly Logo"></a>
+    <div class="menubutton mobile">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="menu desktop">
+      <ul>
+        <li><a href="">Features</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Resources</a></li>
+      </ul>
+      <div class="mobile line"></div>
+      <div class="login">
+        <a href="#">Login</a>
+        <a href="#"><button class="round">Sign Up</button></a>
+      </div>
+    </div>
+  </header>
+  <div class="firstsection">
+    <div class="leftside">
+      <h1>More than just shorter links</h1>
+      <p>Build your brand’s recognition and get detailed insights
+        on how your links are performing.</p>
+      <button class="round">Get Started</button>
+    </div>
+    <div class="rightside">
+      <img src="./images/illustration-working.svg" alt="Working Guy Illustration">
+    </div>
+  </div>
+  <div class="statistics">
+    <div class="linkfield">
+      <form action="">
+        <input type="text" name="url" id="url" placeholder="Shorten a link here..." class="">
+        <button type="submit" class="square">Shorten It!</button>
+        <span class="hidden error" id="errormessage">Wrong format or empty string</span>
+      </form>
+      <div class="links">
+
+      </div>
+      <!-- <div class="link">
+        <div class="linkinner">
+          <p class="oldlink">some https://</p>
+          <div class="line"></div>
+          <p class="newlink">rel.co/mvkermc</p>
+        </div>
+        <button>copy</button>
+      </div> -->
+    </div>
+    <h2>Advanced Statistics</h2>
+
+    <p>Track how your links are performing across the web with our
+      advanced statistics dashboard.</p>
+    <div class="boxes">
+      <div class="absoluteline"></div>
+      <div class="box box1">
+        <img src="./images/icon-brand-recognition.svg" alt="Brand Recognition">
+        <h3>Brand Recognition</h3>
+        <p>Boost your brand recognition with each click. Generic links don’t
+          mean a thing. Branded links help instil confidence in your content.</p>
+      </div>
+      <div class="box box2">
+        <img src="./images/icon-detailed-records.svg" alt="Detailed Records">
+        <h3>Detailed Records</h3>
+        <p>Gain insights into who is clicking your links. Knowing when and where
+          people engage with your content helps inform better decisions.</p>
+      </div>
+      <div class="box box3">
+        <img src="./images/icon-fully-customizable.svg" alt="Fully Customizable">
+        <h3>Fully Customizable</h3>
+        <p>Improve brand awareness and content discoverability through customizable
+          links, supercharging audience engagement.</p>
+      </div>
+    </div>
+  </div>
+  <div class="boost">
+    <h2>Boost your links today</h2>
+    <button class="round">Get Started</button>
+  </div>
+  <footer>
+    <a href="#"><img src="./images/logo.svg" alt="Shortly Logo"></a>
+    <div class="features">
+      <h4>Features</h4>
+      <ul>
+        <li><a href="#">Link Shortening</a></li>
+        <li><a href="#">Branded Links</a></li>
+        <li><a href="#">Analytics</a></li>
+      </ul>
+    </div>
+    <div class="resources">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Developers</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+    <div class="company">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="socials">
+      <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="./images/icon-twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="./images/icon-pinterest.svg" alt="Pinterest"></a>
+      <a href="#"><img src="./images/icon-instagram.svg" alt="Instagram"></a>
+    </div>
+  </footer>
+  <script src="./app.js"></script>
+  <script src="./resize.js"></script>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://sebframpton.github.io/">Seb Frampton</a>.
+  </div>
+</body>
+</html>
